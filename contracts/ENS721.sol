@@ -3,6 +3,19 @@ pragma solidity ^0.4.22;
 import "./ERC721.sol";
 
 contract ENS721 is ERC721 {
+
+  // ENS methods (for reference):
+  // get:
+  //  - owner(node)
+  //  - resolver(node)
+  //  - ttl(node)
+  // put:
+  //  - setSubnodeOwner(node, label, owner)
+  //  - setTTL(node, ttl)
+  //  - setResolver(node, resolver)
+  //  - setOwner(node, owner)
+  string constant ensAddress = "0x112234455c3a32fd11230c42e7bccd4a84e02010";
+
   constructor() public {}
 
   function balanceOf(address _owner) external view returns (uint256);
