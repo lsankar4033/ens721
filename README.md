@@ -9,8 +9,5 @@ From the _Owner_ of the domain's perspective.
 
 This allows the 0x contract to transfer ownership.
 
-From the _Buyer_ of the domain's perspective.
-2. The buyer sees the available 
-
----
+TODO: From the _Buyer_ of the domain's perspective.
 
